@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.packing {
+  padding: 50px 30px;
+  border-radius: 30px;
+  background: #fff;
+}
+.packing__title-area {
+  margin-bottom: 35px;
+  position: relative;
+  text-align: center;
+}
+.packing__title-area svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.packing__title-area-title {
+  color: #222950;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.714%; /* 24.069px */
+  letter-spacing: 0.54px;
+}
+
+.packing__item {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 122, 255, 0.28);
+  background: #fff;
+  margin-bottom: 25px;
+}
+.packing__item-main-side {
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 122, 255, 0.05);
+}
+.packing__item-main-side h2 {
+  color: #222950;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Baloo Da 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.packing__item-main-side h3 {
+  color: #007aff;
+  text-align: right;
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.packing__item-sub-side {
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #595f8417;
+}
+
+.packing__item-sub-side-title {
+  color: #595f84;
+  font-family: "Baloo Da 2";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+}
+
+.packing__item-sub-side-container {
+  display: flex;
+}
+
+.packing__item-sub-side-container h3:first-child {
+  color: #8a94a6;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.packing__item-sub-side-container h3:last-child {
+  color: #595f84;
+  text-align: right;
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 13px;
+}

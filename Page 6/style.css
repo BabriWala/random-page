@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ebebedb0;
+}
+.packing {
+  margin: 80px 28px;
+  text-align: right;
+}
+.packing svg {
+  margin-bottom: 35px;
+}
+.packing__container {
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+
+  /* shadow-sm */
+  box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.03);
+}
+.packing__title {
+  color: #595f84;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Baloo Da 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.packing__select {
+  border-radius: 10px;
+  border: 1px solid #e5e7f0;
+  background: #fff;
+  width: 100%;
+  padding: 12px 16px;
+  color: #595f84;
+  font-family: "Baloo Da 2";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  margin-bottom: 33px;
+}
+.packing__product-item-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #343955;
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.packing__product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #595f84;
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 16px 0;
+  border-bottom: 1px solid #8a94a63a;
+}
+.pack-now-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #258aff 0%, #0063ff 100%);
+  padding: 12px 16px;
+  color: #fff;
+  font-family: "Baloo Da 2";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  margin-top: 24px;
+  cursor: pointer;
+}
+.cancel-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #e5e7f0;
+  padding: 12px 16px;
+  color: #263238;
+  font-family: "Baloo Da " 2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  background-color: #fff;
+  margin-top: 15px;
+  cursor: pointer;
+}
